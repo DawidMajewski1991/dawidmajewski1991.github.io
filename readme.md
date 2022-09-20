@@ -1,18 +1,15 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+# Description
 
-# WTF Webpack Starter Kit 
+Dawid Majewski's Frontend Portfolio.
 
-Simple toolkit for your static websites development.
+## Used technologies
 
-## How to use it?
-
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
+- WTF Starter Kit
+- HTML/CSS/JS
 
 ## Available scripts
 
 `npm run start` - runs development mode
-
 `npm run build` - runs build process for production
-
 `npm run publish` - runs build process and publish the page using `gh-pages` branch
 
