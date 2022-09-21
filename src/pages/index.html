@@ -21,7 +21,11 @@
     <main>
       <section class="hero">
         <div class="hero__image-container">
-          <img class="hero__image" src="../assets/img/dawid.jpg" alt="Dawid Majewski Photo." />
+          <img
+            class="hero__image"
+            src="../assets/img/dawid.jpg"
+            alt="Dawid Majewski Photo."
+          />
           <span class="hero__hello">Hey there! 🖐</span>
         </div>
         <div class="hero__description">
@@ -32,9 +36,11 @@
           </h1>
           <p class="hero__paragraph">
             You might be interested in checking the list of
-            <a class="hero__link" href="#skills">my skills</a>. Don’t forget to have a glimpse at
-            <a class="hero__link" href="#projects">my projects</a>. Currently I’m looking for a new
-            challenges so if you have one - <a class="hero__link" href="#contact">contact me</a> 😊
+            <a class="hero__link" href="#skills">my skills</a>. Don’t forget to
+            have a glimpse at
+            <a class="hero__link" href="#projects">my projects</a>. Currently
+            I’m looking for a new challenges so if you have one -
+            <a class="hero__link" href="#contact">contact me</a> 😊
           </p>
           <a class="hero__contact" href="mailto:dawidmajewski1991@gmail.com"
             >dm1991@gmail.com</a
@@ -92,27 +98,35 @@
         </p>
         <div class="projects-grid">
           <article class="project">
-            <h3 class="project__title">
-              <span>project:</span><span>elblaski git</span>
-            </h3>
-            <p>
-              <span>description:</span
-              ><span>elblaska stona internetowa o roznych rzeczach</span>
-            </p>
-            <p>
-              <span>demo:</span
-              ><span
-                >&lt;<a href="#" title="elblaski git - demo">see__here</a
-                >&gt;</span
-              >
-            </p>
-            <p>
-              <span>github:</span
-              ><span
-                >&lt;<a href="#" title="elblaski git - code">source_code</a
-                >&gt;</span
-              >
-            </p>
+            <div class="project__window">
+              <span class="project__circle"></span>
+              <span class="project__circle"></span>
+              <span class="project__circle"></span>
+            </div>
+            <div class="project__content">
+              <img src="../assets/img/github_icon.svg" alt="">
+              <h3 class="project__grid project__title">
+                <span class="project__label">project:</span><span>elblaski git</span>
+              </h3>
+              <p class="project__grid">
+                <span class="project__label">description:</span
+                ><span>elblaska stona internetowa o roznych rzeczach</span>
+              </p>
+              <p class="project__grid">
+                <span class="project__label">demo:</span
+                ><span
+                  >&lt;<a class="project__link" href="#" title="elblaski git - demo">see__here</a
+                  >&gt;</span
+                >
+              </p>
+              <p class="project__grid">
+                <span class="project__label">github:</span
+                ><span
+                  >&lt;<a class="project__link" href="#" title="elblaski git - code">source_code</a
+                  >&gt;</span
+                >
+              </p>
+            </div>
           </article>
         </div>
       </section>
