@@ -1,3 +1,5 @@
+![cover#](https://dawidmajewski1991.github.io/img/og.png)
+
 # Description
 
 Dawid Majewski's Frontend Portfolio.
@@ -6,6 +8,7 @@ Dawid Majewski's Frontend Portfolio.
 
 - WTF Starter Kit
 - HTML/CSS/JS
+- GitHub API
 
 ## Available scripts
 
