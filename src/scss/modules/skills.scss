@@ -2,12 +2,25 @@
   background-color: $blue;
   color: white;
   padding: 64px 16px 88px;
+  &__columns {
+    @media(min-width: $desktop) {
+      max-width: 1184px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+
+    }
+  }
   &__header {
     font-weight: bold;
     font-weight: 700;
     font-size: 36px;
     line-height: 48px;
     text-align: center;
+    @media (min-width: $desktop) {
+      font-size: 48px;
+      line-height: 56px;
+    }
   }
 }
 
