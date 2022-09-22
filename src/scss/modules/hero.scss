@@ -6,6 +6,7 @@
   }
   @media (min-width: $desktop) {
     max-width: 100%;
+    padding-bottom: 176px;
   }
   &__box {
     position: absolute;
@@ -35,14 +36,16 @@
         content:'';
         display: block;
         position: absolute;
-        top: 0;
+        top: -24px;
       }
       &:before {
         background: url('../assets/img/open.svg');
+        background-repeat: no-repeat;
         right: 100%;
       }
       &:after {
         background: url('../assets/img/close.svg');
+        background-repeat: no-repeat;
         left: 100%;
       }
     }
@@ -90,6 +93,7 @@
       width: 178px;
       height: 178px;
       border: 24px solid #f6f9fd;
+      margin-bottom: 48px;
     }
   }
   &__image-container {
@@ -112,6 +116,7 @@
     @media (min-width: $desktop) {
       font-size: 20px;
       line-height: 40px;
+      margin-bottom: 68px;
     }
   }
   &__special {

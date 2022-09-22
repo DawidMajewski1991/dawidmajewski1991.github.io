@@ -17,6 +17,7 @@
     font-size: 36px;
     line-height: 48px;
     text-align: center;
+    margin: 16px 0 64px;
     @media (min-width: $desktop) {
       font-size: 48px;
       line-height: 56px;
@@ -38,7 +39,7 @@
     &:before {
       position: absolute;
       left: 0;
-      top: 10px;
+      top: 4px;
       display: block;
       content: '';
       width: 12px;
