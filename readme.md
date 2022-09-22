@@ -1,4 +1,4 @@
-![cover#](https://dawidmajewski1991.github.io/img/og.png)
+![cover](https://dawidmajewski1991.github.io/img/og.png)
 
 # Description
 
