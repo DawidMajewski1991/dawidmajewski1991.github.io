@@ -124,3 +124,8 @@
     white-space: nowrap;
   }
 }
+
+.hand {
+  display: inline-block;
+  animation: wave 2s ease-in-out infinite;
+}
